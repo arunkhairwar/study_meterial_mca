@@ -16,6 +16,10 @@ Work here = producing practical files and assignment answers as Word documents.
 ## Output formats
 
 ### Practical file (per subject)
+**Page layout (strict):** page A = Aim + Algorithm · page B = Flowchart alone ·
+page C = Program (+ Output on the same page only if it fits, else Output on
+its own page). Never put the flowchart and the program on the same page.
+
 For **each** practical, in order:
 1. **Aim** — the practical statement as given.
 2. **Algorithm** — numbered steps (Step 1: Start … Step n: Stop).
@@ -25,8 +29,16 @@ For **each** practical, in order:
    exactly as-is**; otherwise write a correct, simple, student-level answer.
 5. **Output** — sample output.
 
+**Correction rule:** if the college answer sheet is wrong or doesn't match the
+question list, fix it and put a short *Note* right below the Algorithm saying
+what was corrected + "Please test and run it yourself before writing."
+Compile/run every program before putting it in (JDK 21 is installed; MySQL
+server runs but root needs a password; no Oracle, no PHP).
+
 ### Assignment (per subject)
 - Answer each question for **3–4 marks: about 1–2 pages max**. Keep it short.
+- Each question starts on a new page. Include a diagram (Graphviz) where the
+  topic has a mechanism/architecture, and a short tested program where asked.
 - Structure: short definition/intro → key points (bullets) → diagram/table/
   example only where it helps → 1-line conclusion. No padding.
 
@@ -35,8 +47,11 @@ Index table (Sr. No., Practical, Date, Sign) → one practical per page.
 Built with Node `docx` package + Graphviz `dot` for flowcharts (python-docx
 and pip are not installed on this machine).
 
-Deliverable: a new `.docx` in the subject folder, e.g.
-`java/java_practical_file.docx`, `php/php_assignment_answers.docx`.
+Deliverables go in **`<subject>/answers/`** as both `.docx` and `.pdf`, e.g.
+`php/answers/php_practical_answer.docx` + `.pdf`. PDF is made by rendering the
+same content to HTML and printing with headless `google-chrome` (no LibreOffice).
+For SQL (ADBMS) practicals: Program page = clean SQL statements; Output page =
+the SQL*Plus transcript from the answers PDF, kept as-is.
 
 ## Folder layout
 
@@ -129,9 +144,11 @@ Deliverable: a new `.docx` in the subject folder, e.g.
 
 ## Progress log
 (Update as each deliverable is finished.)
-- [ ] Java — practical file / assignment
+- [x] Java — practical file (`java/answers/`, 15 practicals, all compiled & run on JDK 21; GUI outputs are real screenshots) — awaiting review
+- [x] Java — assignment (`java/answers/java_assignment_answer.*`, 20 questions) — awaiting review
 - [ ] DCN — assignment (theory only)
-- [x] PHP — practical file (`php/php_practical_answer.docx`, 15 practicals) — awaiting student review
+- [x] PHP — practical file (`php/answers/`, 15 practicals) — rebuilt in new page layout
+- [x] ADBMS — practical file (`adbms/answers/`, 15 practicals; P5/P6/P7/P13 names corrected to match practical list, with notes) — awaiting review
 - [ ] PHP — assignment
-- [ ] ADBMS — practical file / assignment
+- [ ] ADBMS — assignment
 - [ ] Software Engineering — assignment (theory only)
