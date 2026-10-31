@@ -35,10 +35,18 @@ what was corrected + "Please test and run it yourself before writing."
 Compile/run every program before putting it in (JDK 21 is installed; MySQL
 server runs but root needs a password; no Oracle, no PHP).
 
+### ADBMS practical file — step format (replaces algorithm/flowchart)
+**Aim:** question from the list → (Note if corrected) → for each step:
+`Step N: <short title>` with **Description** (short), **Credentials** (only if
+needed, e.g. system/<password>, Prerna/prerna123), **Syntax** (generic SQL),
+**Example** (actual SQL + result from the answer sheet).
+
 ### Assignment (per subject)
 - Answer each question for **3–4 marks: about 1–2 pages max**. Keep it short.
 - Each question starts on a new page. Include a diagram (Graphviz) where the
   topic has a mechanism/architecture, and a short tested program where asked.
+- **Format (strict): short introduction → explanation in bullet points →
+  conclusion.** That's it.
 - Structure: short definition/intro → key points (bullets) → diagram/table/
   example only where it helps → 1-line conclusion. No padding.
 
@@ -52,6 +60,8 @@ Deliverables go in **`<subject>/answers/`** as both `.docx` and `.pdf`, e.g.
 same content to HTML and printing with headless `google-chrome` (no LibreOffice).
 For SQL (ADBMS) practicals: Program page = clean SQL statements; Output page =
 the SQL*Plus transcript from the answers PDF, kept as-is.
+
+**Do not** build a website/React project from this material (student declined).
 
 ## Folder layout
 
@@ -148,7 +158,7 @@ the SQL*Plus transcript from the answers PDF, kept as-is.
 - [x] Java — assignment (`java/answers/java_assignment_answer.*`, 20 questions) — awaiting review
 - [ ] DCN — assignment (theory only)
 - [x] PHP — practical file (`php/answers/`, 15 practicals) — rebuilt in new page layout
-- [x] ADBMS — practical file (`adbms/answers/`, 15 practicals; P5/P6/P7/P13 names corrected to match practical list, with notes) — awaiting review
+- [x] ADBMS — practical file (`adbms/answers/`, 15 practicals, step format; corrections noted on P4/5/6/7/8/10/12/13/14) — awaiting review
 - [ ] PHP — assignment
 - [ ] ADBMS — assignment
 - [ ] Software Engineering — assignment (theory only)
