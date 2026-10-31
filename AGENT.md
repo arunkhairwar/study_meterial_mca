@@ -159,6 +159,6 @@ the SQL*Plus transcript from the answers PDF, kept as-is.
 - [ ] DCN — assignment (theory only)
 - [x] PHP — practical file (`php/answers/`, 15 practicals) — rebuilt in new page layout
 - [x] ADBMS — practical file (`adbms/answers/`, 15 practicals, step format; corrections noted on P4/5/6/7/8/10/12/13/14) — awaiting review
-- [ ] PHP — assignment
+- [x] PHP — assignment (`php/answers/php_assignment_answer.*`, 20 questions; Q6–Q9 pattern logic verified) — awaiting review
 - [x] ADBMS — assignment (`adbms/answers/adbms_assignment_answer.*`, 18 questions, intro → bullets → conclusion) — awaiting review
 - [ ] Software Engineering — assignment (theory only)
