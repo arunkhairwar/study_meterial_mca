@@ -160,5 +160,5 @@ the SQL*Plus transcript from the answers PDF, kept as-is.
 - [x] PHP — practical file (`php/answers/`, 15 practicals) — rebuilt in new page layout
 - [x] ADBMS — practical file (`adbms/answers/`, 15 practicals, step format; corrections noted on P4/5/6/7/8/10/12/13/14) — awaiting review
 - [ ] PHP — assignment
-- [ ] ADBMS — assignment
+- [x] ADBMS — assignment (`adbms/answers/adbms_assignment_answer.*`, 18 questions, intro → bullets → conclusion) — awaiting review
 - [ ] Software Engineering — assignment (theory only)
